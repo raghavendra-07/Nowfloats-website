@@ -2,15 +2,6 @@ const storiesContainer = document.getElementById("stories-container");
 const picturesContainer = document.getElementById("pictures-container");
 
 // Function to display stories
-
-//submit-btn.adde
-
-function saveInput(){
-  const input = document.getElementById("html").value;
-    localStorage.setItem("htmlValue", html);
-    //window.location.href = ".html"
-}
-
 function displayStories() {
   // Sample array of stories
   const stories = [
@@ -95,12 +86,6 @@ function displayPictures() {
   });
 }
 
-
-
-
 // Call functions to display stories and pictures
 displayStories();
 displayPictures();
-
-
-
